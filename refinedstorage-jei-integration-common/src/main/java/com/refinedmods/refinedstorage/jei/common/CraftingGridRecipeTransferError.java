@@ -65,7 +65,7 @@ class CraftingGridRecipeTransferError extends AbstractRecipeTransferError {
         transferInputs.forEach(input -> drawInputHighlight(graphics, input));
         graphics.pose().popMatrix();
         graphics.tooltip(Minecraft.getInstance().font, calculateTooltip(), mouseX, mouseY,
-            DefaultTooltipPositioner.INSTANCE, null);
+            DefaultTooltipPositioner.INSTANCE, null, false);
     }
 
     private List<ClientTooltipComponent> calculateTooltip() {

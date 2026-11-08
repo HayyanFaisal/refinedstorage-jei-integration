@@ -1,5 +1,9 @@
 # Refined Storage - JEI Integration [![Build Status](https://github.com/refinedmods/refinedstorage-jei-integration/actions/workflows/build.yml/badge.svg?branch=develop)](https://github.com/refinedmods/refinedstorage-jei-integration/actions/workflows/build.yml) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=refinedmods_refinedstorage-jei-integration&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=refinedmods_refinedstorage-jei-integration) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=refinedmods_refinedstorage-jei-integration&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=refinedmods_refinedstorage-jei-integration) [![Crowdin](https://badges.crowdin.net/refined-storage-jei-integration/localized.svg)](https://crowdin.com/project/refined-storage-jei-integration) [![Downloads on CurseForge](https://img.shields.io/curseforge/dt/1230497?logo=curseforge)](https://www.curseforge.com/minecraft/mc-mods/refined-storage-jei-integration) [![Downloads on Modrinth](https://img.shields.io/modrinth/dt/refined-storage-jei-integration?logo=modrinth)](https://modrinth.com/mod/refined-storage-jei-integration) [![Discord](https://img.shields.io/discord/342942776494653441)](https://discordapp.com/invite/VYzsydb) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 
+> [!NOTE]
+> **Unofficial Minecraft 26.3 (Fabric) port** of Refined Storage - JEI Integration v2.0.1, made with AI assistance.
+> See [PORTING-26.3.md](PORTING-26.3.md) for what changed and how to build it. Not affiliated with Refined Mods.
+
 ## About
 
 [Just Enough Items](https://github.com/mezz/JustEnoughItems) integration

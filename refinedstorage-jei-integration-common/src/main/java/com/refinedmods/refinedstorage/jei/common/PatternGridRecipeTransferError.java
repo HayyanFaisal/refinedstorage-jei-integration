@@ -58,7 +58,8 @@ class PatternGridRecipeTransferError extends AbstractRecipeTransferError {
             mouseX,
             mouseY,
             DefaultTooltipPositioner.INSTANCE,
-            null
+            null,
+            false
         );
     }
 }

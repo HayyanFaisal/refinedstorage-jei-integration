@@ -3,6 +3,7 @@ plugins {
 }
 
 repositories {
+    mavenLocal()
     maven {
         name = "Refined Storage"
         url = uri("https://maven.creeperhost.net")
@@ -41,7 +42,6 @@ base {
 }
 
 val refinedstorageVersion: String by project
-val refinedstorageQuartzArsenalVersion: String by project
 val jeiVersion: String by project
 val minecraftVersion: String by project
 
@@ -57,6 +57,4 @@ dependencies {
     compileOnlyApi("mezz.jei:jei-${minecraftVersion}-common-api:${jeiVersion}")
     compileOnlyApi("mezz.jei:jei-${minecraftVersion}-common:${jeiVersion}")
     compileOnlyApi("mezz.jei:jei-${minecraftVersion}-fabric-api:${jeiVersion}")
-    compileOnlyApi("com.refinedmods.refinedstorage:refinedstorage-quartz-arsenal-fabric:${refinedstorageQuartzArsenalVersion}")
-    runtimeOnly("com.refinedmods.refinedstorage:refinedstorage-quartz-arsenal-fabric:${refinedstorageQuartzArsenalVersion}")
 }

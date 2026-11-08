@@ -81,7 +81,7 @@ class CraftingGridRecipeTransferHandler<T extends AbstractCraftingGridContainerM
     }
 
     private void openAutocraftingPreview(final List<TransferInput> transferInputs) {
-        final Screen parentScreen = Minecraft.getInstance().screen instanceof IRecipesGui recipesGui
+        final Screen parentScreen = Minecraft.getInstance().gui.screen() instanceof IRecipesGui recipesGui
             ? recipesGui.getParentScreen().orElse(null)
             : null;
         final List<ResourceAmount> craftingRequests = createCraftingRequests(transferInputs);

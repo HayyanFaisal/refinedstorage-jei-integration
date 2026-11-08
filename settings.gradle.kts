@@ -1,5 +1,6 @@
 pluginManagement {
     repositories {
+        mavenLocal()
         mavenCentral()
         gradlePluginPortal()
         maven {
@@ -26,5 +27,4 @@ pluginManagement {
 
 rootProject.name = "refinedstorage-jei-integration"
 include("refinedstorage-jei-integration-common")
-include("refinedstorage-jei-integration-neoforge")
 include("refinedstorage-jei-integration-fabric")
